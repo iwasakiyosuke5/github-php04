@@ -34,9 +34,9 @@
      <div class=""><label>名前：<input class="bg-slate-300 rounded pl-2" type="text" name="name" required></label></div>
      <div class=""><label>Login ID：<input class="bg-slate-300 rounded pl-2" type="text" name="lid" required></label></div>
      <div><label>Login PW：<input class="bg-slate-300 rounded pl-2" type="text" name="lpw" required></label>
-     <input class="bg-red-300 rounded px-2" type="submit" value="登録"></div>
+     <input class="bg-red-300 rounded px-2 cursor-pointer" type="submit" value="登録"></div>
      <!-- <label>管理FLG：
-      一般<input type="radio" name="kanri_flg" value="0">　
+      一般<input type="radio" name="kanri_flg" value="0">
       管理者<input type="radio" name="kanri_flg" value="1"> -->
     </label>
      <!-- <label>退会FLG：<input type="text" name="life_flg"></label><br> -->

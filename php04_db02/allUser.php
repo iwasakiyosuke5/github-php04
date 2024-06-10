@@ -142,7 +142,7 @@ $json = json_encode($values,JSON_UNESCAPED_UNICODE);
 <div style="padding-left: 30px;">
 <form id="searchForm" method="POST" action="allUser.php" onsubmit="showSpinner()">
       <input class="bg-slate-300 rounded pl-2" type="text" name="search" placeholder="ID/name/lidを検索">
-      <input class="bg-red-300 rounded px-2" type="submit" value="検索">
+      <input class="bg-red-300 rounded px-2 cursor-pointer" type="submit" value="検索">
       <button class="bg-red-100 rounded px-2" type="button" onclick="resetForm()">リセット</button>
 </form>
 </div>
@@ -168,7 +168,7 @@ $json = json_encode($values,JSON_UNESCAPED_UNICODE);
                 <td class="border-r border-gray-100" style="font-size: 14px"><?=h($v["name"]);?></td>
                 <td class="border-r border-gray-100" style="font-size: 14px"><?=h($v["lid"]);?></td>
                 <td class="border-r border-gray-100" style="font-size: 14px"><?php if($v["id"] !== 1):?>
-                      <select class="text-black" name="kanri_flg" onchange="updateKanriFlg('<?=h($v["id"]);?>', this.value)">
+                      <select class="text-black cursor-pointer" name="kanri_flg" onchange="updateKanriFlg('<?=h($v["id"]);?>', this.value)">
                       <!-- <select name="kanri_flg" onchange="this.form.submit()"> -->
                               <option value="0" <?= $v["kanri_flg"] == 0 ? "selected" : "" ?>>0</option>
                               <option value="1" <?= $v["kanri_flg"] == 1 ? "selected" : "" ?>>1</option>
@@ -181,7 +181,7 @@ $json = json_encode($values,JSON_UNESCAPED_UNICODE);
             <?php }?>
             <!-- 「}」を「endforeach;」 とする -->
           </table>
-          <input class="bg-gray-900 text-white rounded px-2 mt-1" type="submit" value="checkしたユーザーを削除"><br>
+          <input class="bg-gray-900 text-white rounded px-2 mt-1 cursor-pointer" type="submit" value="checkしたユーザーを削除"><br>
         </form>
           表示項目数：<?php echo "$count"; ?><br>
           <?php else: ?>

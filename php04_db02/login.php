@@ -25,7 +25,7 @@
 <form name="form1" action="logininsert.php" method="post">
 ID:<input type="text" name="lid" class="bg-slate-300 rounded pl-2">
 PW:<input type="password" name="lpw" class="bg-slate-300 rounded pl-2">
-<input type="submit" value="ログイン" class="bg-red-300 rounded px-2">
+<input type="submit" value="ログイン" class="bg-red-300 rounded px-2 cursor-pointer">
 </form>
 
 </div>

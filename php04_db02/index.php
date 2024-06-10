@@ -66,7 +66,7 @@ sschk();
       </div>
       <div>
           <nav class="text-red-400 navbar navbar-default">論文登録</nav>
-          <a class="navbar-brand bg-red-300 rounded px-1" href="select.php">データ一覧へ</a>
+          <a class="navbar-brand bg-red-300 rounded px-1 cursor-pointer" href="select.php">データ一覧へ</a>
       </div>
     </div>
   </nav>
@@ -88,7 +88,7 @@ sschk();
       <div><label>Jurnal：<input class="bg-slate-300 rounded pl-2" type="text" name="jurnal" required></label></div>
       <div><label>Publication Year：<input class="bg-slate-300 rounded pl-2" type="text" name="pYear" required></label></div>
       <div><label>DOI：<input class="bg-slate-300 rounded pl-2" type="text" name="doi" required></label></div>
-      <div><label>Interest level：<select class="bg-slate-300 rounded pl-2" name="level" id="">
+      <div><label>Interest level：<select class="bg-slate-300 rounded pl-2 cursor-pointer" name="level" id="">
           <option value="★☆☆☆☆">★☆☆☆☆</option>
           <option value="★★☆☆☆">★★☆☆☆</option>
           <option value="★★★☆☆">★★★☆☆</option>
@@ -96,7 +96,7 @@ sschk();
           <option value="★★★★★">★★★★★</option>
       </select></label></div>
       <div><label>Abstract on Abstract：<br><textArea class="bg-slate-300 rounded pl-2" name="abstract" rows="4" cols="40"></textArea></label>
-      <input class="bg-red-300 rounded px-2" type="submit" value="送信"></div>
+      <input class="bg-red-300 rounded px-2 cursor-pointer" type="submit" value="送信"></div>
     </div>
   </fieldset>
   </div>

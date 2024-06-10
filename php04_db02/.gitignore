@@ -1,9 +1,9 @@
-*.json
-*.config.js
-*.sql
-*.html
 node_modules
 fonts
-.vscord
-*.key
-*.pdf
+*.html
+*.json
+*.config.js
+*key
+*pdf
+*vscord
+*.sql

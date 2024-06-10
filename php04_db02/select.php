@@ -130,7 +130,7 @@ $json = json_encode($values,JSON_UNESCAPED_UNICODE);
 <form id="searchForm" method="POST" action="select.php"  onsubmit="showSpinner()">
       <input class="bg-slate-300 rounded pl-2" type="text" name="search" placeholder="title/アブストを検索">
       <input class="bg-slate-300 rounded pl-2" type="text" name="searchAuther" placeholder="authorを検索">
-      <input class="bg-red-300 rounded px-2" type="submit" value="検索">
+      <input class="bg-red-300 rounded px-2 cursor-pointer" type="submit" value="検索">
       <button class="bg-red-100 rounded px-2" type="button" onclick="resetForm()">リセット</button>
 </form>
 </div>
@@ -173,7 +173,7 @@ $json = json_encode($values,JSON_UNESCAPED_UNICODE);
             <?php }?>
             <!-- 「}」を「endforeach;」 とする -->
           </table>
-      <input class="bg-gray-900 text-white rounded px-2 mt-1" type="submit" value="check項目を削除"><br>
+      <input class="bg-gray-900 text-white rounded px-2 mt-1 cursor-pointer" type="submit" value="check項目を削除"><br>
     </form>
   表示項目数：<?php echo "$count"; ?><br>
   <?php else: ?>
