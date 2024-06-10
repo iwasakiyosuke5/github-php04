@@ -1,0 +1,9 @@
+*.json
+*.config.js
+*.sql
+*.html
+node_modules
+fonts
+.vscord
+*.key
+*.pdf
